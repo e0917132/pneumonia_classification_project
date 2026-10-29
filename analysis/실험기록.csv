@@ -1,0 +1,18 @@
+step,change,model,epochs,oof_acc,oof_auc,fold_acc_mean,fold_acc_std,leaderboard
+S0,"방법 A 기준 (ColorJitter 0.2, 고정 12 epoch, 5-fold)",resnet18,12,0.9885,0.9991,0.9908,0.0027,0.8621794872
+S4,ColorJitter brightness/contrast 0.2->0.4,resnet18,12,0.9891,0.9991,0.9891,0.0022,
+C1,여백 크롭 (T=10) 후 letterbox,resnet18,12,0.9877,0.9991,0.9896,0.002,0.8766025641
+D1(fold0),C1 전처리 + DenseNet121 (fold 0 검증 지표),densenet121,12,0.9914,0.9961,0.9914,0,
+D1,C1 전처리 + DenseNet121 (5-fold),densenet121,12,0.9887,0.9981,0.9898,0.0025,0.875
+E1(eq),"앙상블 C1+D1 (동일 가중 0.5/0.5, 임계값 0.5)",resnet18+densenet121,12,0.9893,0.999,,,0.8717948718
+E1,"앙상블 C1+D1 (DenseNet 0.8, 임계값 0.3, OOF 최적. 중첩 검증 0.9902)",resnet18+densenet121,12,0.9912,0.9986,,,0.8429487179
+F1,C1 + 앞쪽 층 고정 (conv1·bn1·layer1·layer2),resnet18,12,0.9893,0.9986,0.9906,0.0029,
+F2,C1 + layer3까지 고정 (conv1·bn1·layer1·layer2·layer3),resnet18,12,0.9864,0.9989,0.9872,0.0014,
+P1,C1 + 퍼센타일 대비 늘리기 (내용 영역 1~99%),resnet18,12,0.9872,0.9992,0.9896,0.0013,
+EB0,C1 전처리 + EfficientNet-B0 단독 (5-fold),efficientnet_b0,12,0.9877,0.9992,0.9896,0.0013,0.8717948718
+O4,"C1 + Optuna 시도 4 파라미터 (lr 0.00026, wd 4.3e-05, ls 0.018, 7 epoch)",resnet18,7,0.9883,0.9992,0.9898,0.0034,0.8717
+O11,"C1 + Optuna 시도 11 파라미터 (lr 0.00028, wd 0.00035, ls 0.005, 7 epoch)",resnet18,7,0.9887,0.9992,0.9893,0.0029,0.8669
+R50(fold0),C1 전처리 + ResNet50 (fold 0만),resnet50,12,0.9895,0.9952,0.9914,0,
+R50,C1 전처리 + ResNet50 (5-fold),resnet50,12,0.9875,0.9985,0.9885,0.003,0.8782051282
+B5,Baseline CNN 5-fold (128 강제 Resize),baseline_cnn,2,0.9507,0.9868,,,0.7836538462
+B5L,Baseline CNN 5-fold (128 letterbox),baseline_cnn,2,0.9507,0.9868,,,0.7740384615

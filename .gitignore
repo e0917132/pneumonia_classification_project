@@ -1,0 +1,21 @@
+# 데이터와 학습 산출물 (저장소에 포함하지 않음)
+data/
+outputs/
+*.pt
+*.pth
+*.npy
+*.db
+analysis/m5/gradcam_test/
+
+# 환경 파일
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+
+# test 이미지별 예측 결과 (제출 파일과 같은 정보라 공개하지 않음)
+analysis/m5/test_results_R50.csv
+analysis/age_audit/test_random_100.csv
+analysis/age_audit/test_random_100_part*.png
+*submission*.csv

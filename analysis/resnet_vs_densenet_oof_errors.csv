@@ -1,0 +1,86 @@
+﻿file_name,실제,ResNet18_폐렴확률,DenseNet121_폐렴확률,구분
+train_0043.png,NORMAL,0.22,0.734,DenseNet만 틀림
+train_0163.png,NORMAL,0.443,0.752,DenseNet만 틀림
+train_0390.png,NORMAL,0.384,0.736,DenseNet만 틀림
+train_0540.png,NORMAL,0.3,0.878,DenseNet만 틀림
+train_0637.png,NORMAL,0.262,0.731,DenseNet만 틀림
+train_0839.png,NORMAL,0.128,0.842,DenseNet만 틀림
+train_0841.png,NORMAL,0.494,0.636,DenseNet만 틀림
+train_0852.png,NORMAL,0.09,0.583,DenseNet만 틀림
+train_0911.png,NORMAL,0.472,0.884,DenseNet만 틀림
+train_1339.png,NORMAL,0.094,0.837,DenseNet만 틀림
+train_1802.png,PNEUMONIA,0.682,0.23,DenseNet만 틀림
+train_2464.png,PNEUMONIA,0.653,0.471,DenseNet만 틀림
+train_2803.png,PNEUMONIA,0.747,0.363,DenseNet만 틀림
+train_3152.png,PNEUMONIA,0.679,0.248,DenseNet만 틀림
+train_3154.png,PNEUMONIA,0.57,0.083,DenseNet만 틀림
+train_3951.png,PNEUMONIA,0.874,0.236,DenseNet만 틀림
+train_4038.png,PNEUMONIA,0.579,0.412,DenseNet만 틀림
+train_4418.png,PNEUMONIA,0.834,0.475,DenseNet만 틀림
+train_4466.png,PNEUMONIA,0.867,0.34,DenseNet만 틀림
+train_4470.png,PNEUMONIA,0.704,0.29,DenseNet만 틀림
+train_4848.png,PNEUMONIA,0.807,0.16,DenseNet만 틀림
+train_1229.png,NORMAL,0.732,0.069,ResNet만 틀림
+train_1329.png,NORMAL,0.725,0.162,ResNet만 틀림
+train_1391.png,PNEUMONIA,0.468,0.938,ResNet만 틀림
+train_1425.png,PNEUMONIA,0.498,0.957,ResNet만 틀림
+train_1471.png,PNEUMONIA,0.278,0.602,ResNet만 틀림
+train_1562.png,PNEUMONIA,0.448,0.941,ResNet만 틀림
+train_1651.png,PNEUMONIA,0.448,0.534,ResNet만 틀림
+train_1702.png,PNEUMONIA,0.43,0.583,ResNet만 틀림
+train_1912.png,PNEUMONIA,0.242,0.621,ResNet만 틀림
+train_2123.png,PNEUMONIA,0.461,0.627,ResNet만 틀림
+train_2293.png,PNEUMONIA,0.473,0.667,ResNet만 틀림
+train_2398.png,PNEUMONIA,0.413,0.673,ResNet만 틀림
+train_2400.png,PNEUMONIA,0.333,0.896,ResNet만 틀림
+train_3128.png,PNEUMONIA,0.213,0.512,ResNet만 틀림
+train_3227.png,PNEUMONIA,0.418,0.68,ResNet만 틀림
+train_3630.png,PNEUMONIA,0.3,0.781,ResNet만 틀림
+train_3713.png,PNEUMONIA,0.489,0.923,ResNet만 틀림
+train_3748.png,PNEUMONIA,0.038,0.536,ResNet만 틀림
+train_3801.png,PNEUMONIA,0.396,0.688,ResNet만 틀림
+train_4319.png,PNEUMONIA,0.39,0.708,ResNet만 틀림
+train_4486.png,PNEUMONIA,0.146,0.793,ResNet만 틀림
+train_4580.png,PNEUMONIA,0.195,0.646,ResNet만 틀림
+train_4687.png,PNEUMONIA,0.376,0.859,ResNet만 틀림
+train_4694.png,PNEUMONIA,0.483,0.606,ResNet만 틀림
+train_4817.png,PNEUMONIA,0.498,0.856,ResNet만 틀림
+train_4868.png,PNEUMONIA,0.404,0.777,ResNet만 틀림
+train_0106.png,NORMAL,0.895,0.864,둘 다 틀림
+train_0234.png,NORMAL,0.634,0.937,둘 다 틀림
+train_0770.png,NORMAL,0.922,0.946,둘 다 틀림
+train_0804.png,NORMAL,0.855,0.889,둘 다 틀림
+train_0845.png,NORMAL,0.77,0.898,둘 다 틀림
+train_0846.png,NORMAL,0.765,0.688,둘 다 틀림
+train_1075.png,NORMAL,0.66,0.899,둘 다 틀림
+train_1088.png,NORMAL,0.721,0.703,둘 다 틀림
+train_1093.png,NORMAL,0.524,0.624,둘 다 틀림
+train_1302.png,NORMAL,0.588,0.909,둘 다 틀림
+train_1325.png,NORMAL,0.674,0.524,둘 다 틀림
+train_1380.png,PNEUMONIA,0.496,0.453,둘 다 틀림
+train_1519.png,PNEUMONIA,0.19,0.344,둘 다 틀림
+train_1556.png,PNEUMONIA,0.14,0.041,둘 다 틀림
+train_1597.png,PNEUMONIA,0.037,0.27,둘 다 틀림
+train_1769.png,PNEUMONIA,0.375,0.169,둘 다 틀림
+train_1896.png,PNEUMONIA,0.369,0.301,둘 다 틀림
+train_1998.png,PNEUMONIA,0.336,0.155,둘 다 틀림
+train_2259.png,PNEUMONIA,0.318,0.481,둘 다 틀림
+train_2324.png,PNEUMONIA,0.208,0.112,둘 다 틀림
+train_2367.png,PNEUMONIA,0.029,0.03,둘 다 틀림
+train_3200.png,PNEUMONIA,0.148,0.035,둘 다 틀림
+train_3770.png,PNEUMONIA,0.334,0.481,둘 다 틀림
+train_3865.png,PNEUMONIA,0.166,0.379,둘 다 틀림
+train_3870.png,PNEUMONIA,0.025,0.014,둘 다 틀림
+train_3901.png,PNEUMONIA,0.382,0.302,둘 다 틀림
+train_3949.png,PNEUMONIA,0.102,0.082,둘 다 틀림
+train_3985.png,PNEUMONIA,0.128,0.099,둘 다 틀림
+train_4432.png,PNEUMONIA,0.452,0.436,둘 다 틀림
+train_4685.png,PNEUMONIA,0.075,0.046,둘 다 틀림
+train_4692.png,PNEUMONIA,0.005,0.004,둘 다 틀림
+train_4713.png,PNEUMONIA,0.258,0.057,둘 다 틀림
+train_4741.png,PNEUMONIA,0.096,0.079,둘 다 틀림
+train_4857.png,PNEUMONIA,0.091,0.065,둘 다 틀림
+train_4861.png,PNEUMONIA,0.171,0.067,둘 다 틀림
+train_4897.png,PNEUMONIA,0.192,0.025,둘 다 틀림
+train_4922.png,PNEUMONIA,0.009,0.008,둘 다 틀림
+train_5033.png,PNEUMONIA,0.039,0.054,둘 다 틀림
